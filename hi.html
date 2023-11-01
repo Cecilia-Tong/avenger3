@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playpen+Sans:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title1">Avengers</h1>
+        <hr class="line-break">
+        <div class="flexbox">
+            <div class="123">
+            <a class="ha" href="https://variety.com/wp-content/uploads/2014/04/01-avengers-2012.jpg"></a>
+                <img class="fig" src="https://variety.com/wp-content/uploads/2014/04/01-avengers-2012.jpg" alt="thor" style="object-position: 90% 0;">
+            </div>
+            
+            <div class="123">
+                <a class="ha" href="https://cdn.britannica.com/30/182830-050-96F2ED76/Chris-Evans-title-character-Joe-Johnston-Captain.jpg"></a>
+                <img class="fig" src="https://cdn.britannica.com/30/182830-050-96F2ED76/Chris-Evans-title-character-Joe-Johnston-Captain.jpg" alt="captain-america" style="object-position: 60% 0;">
+            </div>
+            <div class="123">
+                <a class="ha" href="https://variety.com/wp-content/uploads/2014/04/01-avengers-2012.jpg"></a>
+                <img class="fig" src="https://variety.com/wp-content/uploads/2014/04/01-avengers-2012.jpg" alt="iron man" style="object-position: 26% 0;">
+            </div>
+            <div class="123">
+                <a class="ha" href="https://m.media-amazon.com/images/M/MV5BMjAxMDQ1MDE0Ml5BMl5BanBnXkFtZTcwOTc0MTIyMw@@._V1_.jpg"></a>
+                <img class="fig" src="https://m.media-amazon.com/images/M/MV5BMjAxMDQ1MDE0Ml5BMl5BanBnXkFtZTcwOTc0MTIyMw@@._V1_.jpg" alt="Hulk" style="object-position: 29% 0;">
+            </div>
+            <div class="123">
+                <a class="ha" href="https://static.wikia.nocookie.net/marvel-cinematic-universe/images/1/10/06captain-marvel1.jpg/revision/latest?cb=20191003151550"></a>
+                <img class="fig" src="https://static.wikia.nocookie.net/marvel-cinematic-universe/images/1/10/06captain-marvel1.jpg/revision/latest?cb=20191003151550" alt="captain marvel">
+            </div>
+            <div class="123">
+                <a class="ha" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbN9B5LihoUnktqLwlBUeGg51WEvyeyyDuqAz9R6ax76DQFoNVWslN1b_8qZJXQD0O6a8&usqp=CAU"></a>
+                <img class="fig" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbN9B5LihoUnktqLwlBUeGg51WEvyeyyDuqAz9R6ax76DQFoNVWslN1b_8qZJXQD0O6a8&usqp=CAU" alt="hawk-eye" style="object-position: 70% 0;">
+            </div>
+            <div class="123">
+                <a class="ha" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaTdzC79xLfIElUUxInp0XT8exA3j-MuP9vA&usqp=CAU"></a>
+                <img class="fig" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaTdzC79xLfIElUUxInp0XT8exA3j-MuP9vA&usqp=CAU" alt="black widow" style="object-position: 40% 0;">
+            </div>
+            <div class="123">
+                <a class="ha" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa932OYDm9_3YAp_i-rus7BNYWNaI0xZeIWg&usqp=CAU"></a>
+                <img class="fig" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa932OYDm9_3YAp_i-rus7BNYWNaI0xZeIWg&usqp=CAU" alt="ant man" style="object-position: 40% 0;">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    body { 
+font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+}
+
+.title1 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.line-break {
+  height: 1px;
+  background-color: black;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  
+}
+
+img {
+  width: 65px;
+  height: 500px;
+  margin: 10px;
+  object-fit: cover;
+  object-position: 50% 0;
+  filter: grayscale(90%);
+
+}
+img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+    transform: scaleY(1.05);
+    }
+/*.fig{
+        flex-wrap: nowrap;
+        margin: 10px;
+        width: 65px;
+        height: 500px;
+        object-fit: cover;
+        /*object-fit: https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit*/ 
+        
+
+@media only screen and (max-width: 768px){
+
+    .123{
+            width: calc(12.5% - 20px);
+        } 
+    }
+    
+@media only screen and (max-width: 480px){
+        .123{
+            width: 100%;
+        }
+    }
+
+/* 1 rem use parent font-size as */
+</style>
